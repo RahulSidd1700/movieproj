@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1 className="home-title"> Movies App</h1>
+      <h1 className="home-title">Movie App</h1>
       <div className="section">
         <h2>All Movies</h2>
         <div className="movie-grid">
