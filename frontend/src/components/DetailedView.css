@@ -1,0 +1,76 @@
+
+
+.detail-container {
+  padding: 30px;
+  background-color: #121212;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: 1px solid #00bcd4;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.back-button:hover {
+  background-color: #00bcd4;
+  color: #121212;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  background-color: #1f1f1f;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  max-width: 900px;
+  margin: auto;
+}
+
+.poster-img {
+  width: 260px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.movie-button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.movie-button.add {
+  background-color: #4caf50;
+  color: white;
+}
+
+.movie-button.add:hover {
+  background-color: #45a049;
+}
+
+.movie-button.remove {
+  background-color: #f44336;
+  color: white;
+}
+
+.movie-button.remove:hover {
+  background-color: #e53935;
+}
